@@ -5,7 +5,7 @@ body{
     font-family: 'roboto',sans-serif;
 }
 header{
-    background: url('/Images/background-01.png');
+    background: url('../Images/background-01.png');
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -157,7 +157,7 @@ nav{
     height: 10vh;
 }
 .testimonial-slide{
-    background: url('/Images/main-01.png');
+    background: url('../Images/main-01.png');
     width: 100%;
     height: 80vh;
     background-size: contain;
@@ -301,7 +301,7 @@ nav{
     margin-top: 20vh;
 }
 .peta{
-    background: url('/Images/peta\ -01.png');
+    background: url('../Images/peta\ -01.png');
     background-size: cover;
     background-repeat: no-repeat;
     width: 70%;
@@ -329,7 +329,7 @@ nav{
     padding-bottom: 5vh;
 }
 .footer-image{
-    background: url('/Images/footer-01.png');
+    background: url('../Images/footer-01.png');
     background-size: cover;
     width: 100vw;
     height: 30vh;
@@ -383,13 +383,13 @@ nav{
    
 }
 .img-slide1{
-    background:url('/Images/black.png');
+    background:url('../Images/black.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 }
 .img-slide2{
-    background: url('/Images/white.png');
+    background: url('../Images/white.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
