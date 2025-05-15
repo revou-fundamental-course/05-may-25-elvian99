@@ -1,0 +1,555 @@
+
+body{
+    padding-top: 0;
+    margin: 0;
+    font-family: 'roboto',sans-serif;
+}
+header{
+    background: url('/Images/background-01.png');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 3vw;
+    align-items: center;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.226);
+    width: 92.9vw;
+    top: 0;
+}
+
+.logo img{
+    height: 4vh;
+    width: 5vw;
+}
+.nav-link {
+    list-style-type: none;
+    display: flex;
+    gap: 5vw;
+}
+.nav-link a{
+    text-decoration: none;
+    color: white;
+}
+.nav-link a:hover{
+    color: #154360;
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+
+.iconku{
+    height: 3.5vh;
+}
+.container-judul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 20vh;
+}
+.container-judul img{
+    height: auto;
+    max-width: 100%;
+    transform: rotate(-30deg);
+    display: block;
+}
+.header-judul h1{
+    font-size: 3rem;
+    margin-bottom: 0;  
+}
+.header-judul p{
+    font-size: 1.5rem;
+    padding-bottom: 3vw;
+}
+.header-judul button{
+    font-size: 1rem;
+    padding: 1em 2rem;
+    border-radius: 30px;
+    background:linear-gradient(to right,rgba(0, 166, 255, 0.65),rgba(158, 0, 93, 0.65));
+    border:none;
+    font-weight: bold;
+    color: white;
+}
+.header-judul button:hover{
+    background: linear-gradient(to left,rgba(0, 166, 255, 0.65),rgba(158, 0, 93, 0.65));
+}
+.container-main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.container-main p{
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.692);
+}
+.container-main img{
+    height: 10vh;
+    width: 10vh;
+}
+.container-utama{
+    display: flex;
+    justify-content: center;
+    gap: 6vw;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+}
+.discover-satu{
+    text-align: center;
+}
+.discover-satu img{
+    height: 12vh;
+}
+.discover-satu p{
+    color: rgba(0, 0, 0, 0.692);
+}
+.discover-dua{
+    text-align: center;
+}
+.discover-dua img{
+    height: 12vh;
+}
+.discover-dua p{
+    color: rgba(0, 0, 0, 0.692);
+}
+.discover-tiga{
+    text-align: center;
+}
+.discover-tiga p{
+    color: rgba(0, 0, 0, 0.692);
+}
+.discover-tiga img{
+    height: 12vh;
+}
+.services-contain{
+    margin-top: 20vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 5vh 5vw;
+    gap: 5vw;
+}
+
+.services-wrap2 {
+    height: 10vh;
+    padding: 0 ;
+    flex: 1.2;
+   
+}
+.services-wrap2 h4{
+    color: rgba(0, 0, 0, 0.692);
+    font-size: 1.1rem;
+}
+.services-wrap2 h1{
+    font-size: 3rem;
+    margin-top: 3vh;
+}
+.services-wrap2 p{
+    color: rgba(0, 0, 0, 0.692);
+    font-size: 1.2rem;
+    margin-top: 10vh;
+}
+.services-wrap2 img{
+    height: 10vh;
+}
+.testimonial-slide{
+    background: url('/Images/main-01.png');
+    width: 100%;
+    height: 80vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+    gap: 0;
+}
+
+
+.sub{
+    font-weight: normal;
+}
+.visi-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.visi-teks{
+    margin-left: 11vw;
+}
+.visi-teks img{
+    height: 10vh;
+}
+.visi-teks h4{
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.692);
+}
+.visi-teks h1{
+    font-size: 3rem;
+}
+.visi-teks p{
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.692);
+}
+.list{
+    display: flex;
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.692);
+}
+.image-container{
+    margin-top: 20vh;
+}
+
+.kolom-image img{
+    height: 22vh;
+    padding: 1vh 1vw;
+}
+.pack-man{
+    height: 25vh;
+
+}
+.shot-man{
+    padding:1vh 1vw;
+    width: 20vw;
+    height: 25vh;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    gap: 10vw;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+}
+.input-row{
+    display: flex;
+    margin-top:10vh;
+}
+.input-group{
+    margin: 1vh 1vh;
+}
+.input-group input,
+ .input-group textarea{
+    padding-bottom: 2vh;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.692);
+    background: transparent;
+    outline: none;
+    font-size: 1rem;
+    
+}
+.input-group input:focus,
+ .input-group textarea:focus{
+    border-bottom: 1px solid rgba(158, 0, 93, 0.65);
+ }
+.image-title{
+    height: 10vh;
+}
+.say-hello{
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.692);
+}
+.send-us{
+    font-size: 3rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.button-container{
+    padding: 5vh 2vw;
+}
+.button-container button{
+    padding: 2vh 3vw;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    background: linear-gradient(to right, rgba(0, 166, 255, 0.65),rgba(158, 0, 93, 0.65));
+    border: none;
+    color: white;
+}
+.button-container button:hover{
+    background: linear-gradient(to left,rgba(0, 166, 255, 0.65),rgba(158, 0, 93, 0.65));
+}
+.contact-teks{
+    color: rgba(0, 0, 0, 0.692);
+}
+.call-us{
+    margin-top: 8vh;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgba(0, 166, 255, 0.65);
+}
+.phone{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.phone:hover{
+    color:rgba(158, 0, 93, 0.65);
+}
+.peta-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+.peta{
+    background: url('/Images/peta\ -01.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 70vh;
+    display: block;
+}
+.indo-container{
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.226);
+    width: 11vw;
+    height: 11vh;
+    padding: 1vh 1vw;
+  
+}
+.peta-kirim{
+   font-size: 1.2rem;
+   font-weight: bold;
+   padding-left: 1.8vw;
+   
+}
+.peta-indo{
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.692);
+    margin-top: 0;
+    padding-left: 1vw;
+    padding-bottom: 5vh;
+}
+.footer-image{
+    background: url('/Images/footer-01.png');
+    background-size: cover;
+    width: 100vw;
+    height: 30vh;
+    margin-top: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-white{
+    height: 5vh;
+}
+.judul-footer{
+    font-size: 2rem;
+}
+.teks-footer{
+    color: white;
+}
+.input-footer{
+    width: 15vw;
+    height: 5vh;
+    padding-left: 1vw;
+    border:none;
+    outline: none;
+}
+.button-footer{
+    margin-top: 2vh;
+    color: white;
+    padding:1.5vh 1vw;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(to right, rgba(0, 166, 255, 0.65),rgba(158, 0, 93, 0.65));
+}.button-footer:hover{
+    background: linear-gradient(to left, rgba(0, 166, 255, 0.65),rgba(158, 0, 93, 0.65)) ;
+}
+.copy-container{
+    border: 1px solid black;
+    width: 100vw;
+    height: 8vh;
+    background-color: #052048;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copy{
+    color: white;
+}
+.slider{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+   
+}
+.img-slide1{
+    background:url('/Images/black.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.img-slide2{
+    background: url('/Images/white.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.slider{
+    height: 45vh;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+@media screen and (max-width: 767px){
+    nav{
+        height: 4vh;
+        width: 100%;
+    }
+    .container-judul{
+        flex-direction: column;
+        text-align: center;
+        gap: 5vh;
+    }
+    .container-judul img{
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .header-judul h1{
+        font-size: 2.6rem;
+    }
+    .header-judul p{
+        font-size: 1.3rem;
+    }
+    .container-main h1{
+        text-align: center;
+        padding: 0 4vw;
+    }
+    
+    .services-contain{
+        flex-direction: column;
+    }
+    .slider{
+        width:100%;
+        height: 25vh;
+    }
+    .testimonial-slide{
+        height: 80%;
+        padding-top: 1vh;
+        margin-bottom: 20vh;
+        margin-top: 0;
+    }
+    .services-wrap2{
+        padding-left: 4vw;
+    }
+    .visi-wrap{
+        flex-direction: column;
+    }
+    .visi-teks h1{
+        font-size: 2.5rem;
+    }
+    .visi-teks p{
+        font-size: 1.2rem;
+    }
+    .list{
+        font-size: 1.2rem;
+        margin-right: 1vw;
+    }
+    .kolom-image{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .kolom-image2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .shot-man{
+        width: 80vw;
+        margin-left: 4vw;
+    }
+    .image-container img{
+         border-radius: 30px;
+    }
+    .form-container{
+        flex-direction: column;
+    }
+    form{
+        width: 80vw;
+        display: flex;
+        margin-left: 9vw;
+    }
+    .button-container button{
+        padding: 2vh 10vw;
+    }
+    .contact-info{
+        padding: 3vh 4vw;
+    }
+    .contact-info h1{
+        font-size: 2.5rem;
+        padding-left: 4vw;
+    }
+    .contact-info p {
+        font-size: 1.2rem;
+        padding-left: 4vw;
+    }
+    .call-us{
+        padding-left: 4vw;
+    }
+    .phone{
+        padding-left: 4vw;
+    }
+    .peta-container{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .peta{
+        height: 25vh;
+        width: 100%;
+        margin-left: 5vw;
+        margin-top: 0;
+    }
+    .indo-container{
+        width: 27vw;
+        height: 7.5vh;
+        gap: 0;
+    }
+    .peta-kirim{
+        font-size: 1rem;
+       
+    }
+    .peta-indo{
+        font-size: 0.8rem;
+       
+    }
+    .footer-image{
+        width: 100%;
+        height: 28vh;
+        margin-left: 20vw;
+    }
+    .teks-footer{
+        font-size: 0.8rem;
+    }
+   
+    .judul-footer{
+        font-size: 1.5rem;
+    }
+    .logo-white{
+        height: 4vh;
+        width: 2vw;
+    }
+    .form-footer{
+       margin-right: 20vw;
+    }
+
+}
